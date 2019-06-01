@@ -41,7 +41,8 @@ public class Calculator {
 
     public static void main(String[] args) {
         Calculator calc = new Calculator();
-
+        CalcGui window = new CalcGui();
+        window.setVisible(true);
         System.out.println(calc.evaluate("5 1 2 + 4 * + 3 -"));
     }
 
